@@ -1,4 +1,15 @@
-
+/**
+ * Ball On Plate
+ *
+ * File:   Plotting.cpp
+ *
+ * Description:
+ *
+ *  3D Visual of Ball On Plate
+ *
+ * @author CSE_395_Undergraduate_Project_I_Group_7
+ * @since Friday 28 October 2016
+ */
 #include <iostream>
 #include "Plotting.h"
 
