@@ -39,7 +39,7 @@
 
 # WEBSITE
 
-<b> https://ballonplategrup7.github.io </b>
+<b> https://ballonplategroup7.github.io </b>
 
 -------------------
 -------------------
