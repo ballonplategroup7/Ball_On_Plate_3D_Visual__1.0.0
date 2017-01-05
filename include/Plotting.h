@@ -1,7 +1,15 @@
-//
-// Created by sveyda on 20.12.2016.
-//
-
+/**
+ * Ball On Plate
+ *
+ * File:   Plotting.h
+ *
+ * Description:
+ *
+ *  3D Visual of Ball On Plate
+ *
+ * @author CSE_395_Undergraduate_Project_I_Group_7
+ * @since Friday 28 October 2016
+ */
 #ifndef BALL_ON_PLATE_3D_VISUAL_1_0_0_PLOTTING_H
 #define BALL_ON_PLATE_3D_VISUAL_1_0_0_PLOTTING_H
 
