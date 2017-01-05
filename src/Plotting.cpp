@@ -1,10 +1,6 @@
-//
-// Created by sveyda on 20.12.2016.
-//
 
 #include <iostream>
 #include "Plotting.h"
-
 
 /*
  *   Constructor
@@ -185,30 +181,3 @@ Plotting::~Plotting()
 {
 
 }
-
-
-
-/*==============================================================================
-  orange to red
-
-void Plotting::drawOrange()
-{
-    drawBorder();
-   drawCaption();
-    static irr::u8 nb = (u8)(W - L - 10); // -10 to draw text above
-
-    //since there are nbVals = W - L values, step is
-    static irr::f32 Rstep = (start.getRed()   - end.getRed()  ) / nb; // 170 / 90 = 1,8889
-    static irr::f32 Gstep = (start.getGreen() - end.getGreen()) / nb;
-    static irr::f32 Bstep = (start.getBlue()  - end.getBlue() ) / nb;
-
-
-
-    //values
-    for (irr::u8 x=1; x<t.size(); x++)
-        driver->draw2DLine (position2d<irr::s32>(L+x, H-t[x-1]),
-                            position2d<irr::s32>(L+x, H-t[x]  ),
-                            irr::video::SColor (255, 255-(irr::u8)(x*Rstep), (irr::u8)(x*Gstep), (irr::u8)(x*Bstep)) );
-}
-
-*/
