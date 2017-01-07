@@ -168,7 +168,7 @@ namespace BallOnPlate
             /**
              * Get KeyIsDown
              */
-            getKeyisDown(int index){return KeyIsDown[index];}
+            int getKeyisDown(int index){return KeyIsDown[index];}
 
         private:
 

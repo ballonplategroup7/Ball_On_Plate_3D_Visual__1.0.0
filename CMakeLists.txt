@@ -17,7 +17,7 @@ file(GLOB 3D_SRC
 
 #TODO organize own binary file outpath
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "/home/sveyda/ClionProjects/Ball_On_Plate_3D_Visual_1.0.0/bin/")
-#-pthread -->add
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(GL_LIBRARY GL GLU X11 Xxf86vm)

@@ -13,7 +13,7 @@
 
 #include "SerialCommunicationWindows.h"
 
-//#ifdef _WIN32
+#ifdef _WIN32
 
 
 /** For uint8_t */
@@ -268,4 +268,4 @@ namespace BallOnPlate
 
 }
 
-//#endif
+#endif
